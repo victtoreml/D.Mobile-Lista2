@@ -1,0 +1,220 @@
+/*Questão 1*/
+
+div.Q1 {
+    border-left: solid 20em green;
+    border-right: solid 20em red;
+    width: 60%;
+    height: 400px;
+    font-size: 12px;
+    letter-spacing: 3em;
+    word-spacing: 4ex;
+    line-height: 3em;
+    text-align: justify;
+    font-family: Verdana;
+    text-indent: 25px;
+}
+
+div.Q1::first-letter {
+    font-size: 36px;
+    color: blue;
+    text-decoration: overline;
+}
+
+div.Q1::first-line {
+    text-decoration: underline;
+    text-transform: uppercase;
+}
+
+/*Questão 2*/
+
+a.Link1:link {
+    text-decoration: none;
+}
+
+a.Link2:link {
+    text-decoration: overline;
+}
+
+a.Link2:visited {
+    text-decoration: underline;
+}
+
+a.Link2:active {
+    text-decoration: line-through;
+}
+
+a.Link3:link {
+    text-decoration: none;
+    color: orange;
+}
+
+a.Link3:hover {
+    text-decoration: underline;
+    color: green;
+}
+
+a.Link4:link {
+    text-decoration: none;
+    border-width: 1px;
+    border: solid;
+    border-color: blue;
+    color: white;
+    background-color: black;
+}
+
+a.Link4:hover {
+    text-decoration: none;
+    border-width: 1px;
+    border: dotted;
+    border-color: black;
+    color: black;
+    background-color: white;
+}
+
+a.Link5:link {
+    text-decoration: none;
+    color: red;
+}
+
+a.Link5:visited {
+    color: orange;
+    font-style: italic;
+    font-weight: bold;
+}
+
+a.Link5:hover {
+    text-decoration: underline;
+}
+
+a.Link5:active {
+    color: yellow;
+}
+
+/*Questão 3*/
+
+.img1 {
+    -webkit-filter: grayscale(100%);
+}
+
+.img1:hover {
+    -webkit-filter: grayscale(0%);
+    transition: 0s;
+}
+
+.Imagem:hover .Imagem1 {
+    display: none;
+}
+
+.Imagem1 {
+    display: block;
+}
+
+.Imagem:hover .Imagem2 {
+    display: block;
+}
+
+.Imagem2 {
+    display: none;
+}
+
+/*Questão 4*/
+
+.menu {
+    border: 3px solid blue;
+    margin-left: 17%;
+    margin-right: 17%;
+}
+
+.menu ul {
+    float: right;
+}
+
+.menu ul li {
+    display: inline;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 31px;
+}
+
+.menu ul li a {
+    text-decoration: none;
+    display: inline-block;
+    padding: 15px 40px 0 15px;
+}
+
+.menu ul li a:hover {
+    text-decoration: overline;
+}
+
+.esporte {
+    color: green;
+}
+
+.noticia {
+    color: red;
+}
+
+.entretenimento {
+    color: orange;
+}
+
+.videos {
+    color: blue;
+}
+
+/*Questão 5*/
+
+ul {
+    list-style-image: url('imagem/setaR.gif');
+}
+
+.Q5 {
+    color: red;
+    font-size: 12px;
+    font-family: "Verdana";
+}
+
+.li1 {
+    list-style-type: none;
+    border-bottom: 1px dotted red;
+}
+
+.Q5.ul:hover {
+    color: green;
+    border-bottom: 1px dotted green;
+    list-style-image: url('imagem/setaG.gif')
+}
+
+.li1:hover {
+    color: green;
+    border-bottom: 1px dotted green;
+    list-style-image: url('imagem/setaG.gif')
+}
+
+/*Questão 6*/
+
+.Q6_1{
+    text-decoration: none;
+}
+
+.Q6:hover img{
+    text-decoration: border;
+    border: 4px solid red;
+}
+
+.Q6:hover a{
+    text-decoration: underline red;
+}
+
+.Q7_1{
+    text-decoration: none;
+}
+
+.Q7:hover img{
+    text-decoration: border;
+    border: 4px solid green;
+}
+
+.Q7:hover a{
+    text-decoration: underline green;
+}
